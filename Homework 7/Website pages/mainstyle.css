@@ -1,0 +1,26 @@
+
+
+h2 {text-align: center; color: papayawhip; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+h1 {text-align: center; font-family:fantasy; color: burlywood}
+
+
+.specific-list {font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 35px; text-align: center;}
+.footerlinks {font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: x-large; font-style: italic; color: saddlebrown;}
+.headermargins {width: 80%; ; padding-top: 5px;}
+* {box-sizing: border-box;}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#specificborder {border-style:inset; border-color:black; outline:chartreuse; margin: 20px; border-radius: 20px; }
+
+#links {color: darkred; display: inline-block;}
